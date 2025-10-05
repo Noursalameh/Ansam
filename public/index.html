@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>انسامي | فنانة تجميل</title>
+  <meta name="description" content="انسامي - فنانة تجميل | حناء، مكياج، جليتر" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <header class="navbar-wrap">
+    <div class="navbar">
+      <div class="container navbar-inner">
+        <div class="brand">انسامي</div>
+        <nav class="nav" aria-label="Primary">
+          <a href="#home" data-i18n="nav.home">الرئيسية</a>
+          <a href="#services" data-i18n="nav.services">الخدمات</a>
+          <a href="#about" data-i18n="nav.about">من أنا</a>
+          <a href="#contact" data-i18n="nav.contact">تواصل</a>
+        </nav>
+        <div class="actions">
+          <div class="lang-switch" role="group" aria-label="Language switch">
+            <button id="langAr" class="active">AR</button>
+            <button id="langEn">EN</button>
+          </div>
+          <button id="themeToggle" class="icon-btn" aria-label="Light mode">☀️</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero" aria-label="Hero">
+      <div class="hero-content" data-aos="zoom-in">
+        <h1 class="hero-title" data-i18n="hero.tagline">جمالٌ خالد بلمسات الحناء والمكياج والجليتر</h1>
+        <div class="hero-cta">
+          <a href="#about" class="btn btn-primary" data-i18n="hero.cta">تعرفي عليّ</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title" data-i18n="about.title" data-aos="fade-up">من أنا</h2>
+        <p class="section-lead" data-i18n="about.lead" data-aos="fade-up" data-aos-delay="80">
+          خبرة 15 سنة، أزور جميع مدن الأردن، متخصصة بالحناء والمكياج والجليتر لكل المناسبات ما عدا الأطفال.
+        </p>
+        <div class="about-grid">
+          <div class="about-card" data-aos="fade-up">
+            <ul class="about-points">
+              <li data-i18n="about.point1">15 سنة من الخبرة والتفاصيل الراقية</li>
+              <li data-i18n="about.point2">أغطي جميع المدن الأردنية</li>
+              <li data-i18n="about.point3">حناء، مكياج، وجليتر لكل الأذواق</li>
+              <li data-i18n="about.point4">مناسب لكل المناسبات (باستثناء الأطفال)</li>
+            </ul>
+          </div>
+          <div class="about-card" data-aos="fade-up" data-aos-delay="80">
+            <p class="section-lead">
+              أجمع بين الفخامة والأنوثة واللمسات المستوحاة من التراث، لأقدم إطلالات تليق بذوقك الرفيع.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="services.title" data-aos="fade-up">الخدمات</h2>
+        <div class="cards">
+          <article class="card" data-aos="zoom-in">
+            <div class="card-media"><img loading="lazy" src="https://source.unsplash.com/600x400/?henna,hand" alt="Henna"></div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="services.henna.title">الحناء</h3>
+              <p class="card-text" data-i18n="services.henna.desc">نقوش راقية مستوحاة من التراث بلمسات عصرية.</p>
+              <a class="btn btn-outline" href="/services/henna.html" data-i18n="button.viewDetails">التفاصيل</a>
+            </div>
+          </article>
+          <article class="card" data-aos="zoom-in" data-aos-delay="60">
+            <div class="card-media"><img loading="lazy" src="https://source.unsplash.com/600x400/?makeup,beauty" alt="Makeup"></div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="services.makeup.title">المكياج</h3>
+              <p class="card-text" data-i18n="services.makeup.desc">إطلالات متقنة تبرز جمالك وتناسب مناسبتك.</p>
+              <a class="btn btn-outline" href="/services/makeup.html" data-i18n="button.viewDetails">التفاصيل</a>
+            </div>
+          </article>
+          <article class="card" data-aos="zoom-in" data-aos-delay="120">
+            <div class="card-media"><img loading="lazy" src="https://source.unsplash.com/600x400/?glitter,makeup" alt="Glitter"></div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="services.glitter.title">الجليتر</h3>
+              <p class="card-text" data-i18n="services.glitter.desc">لمسات براقة ناعمة تلائم الاحتفالات والتصوير.</p>
+              <a class="btn btn-outline" href="/services/glitter.html" data-i18n="button.viewDetails">التفاصيل</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section pricing">
+      <div class="container">
+        <h2 class="section-title" data-i18n="pricing.title" data-aos="fade-up">الباقات</h2>
+
+        <div class="pricing-group" data-aos="fade-up">
+          <h3 class="card-title" data-i18n="pricing.henna.title">باقات الحناء</h3>
+          <div class="tier-grid">
+            <div class="tier">
+              <h4 data-i18n="pricing.henna.p1.title">حناء كلاسيكي</h4>
+              <div class="price">25 JD</div>
+              <p class="desc" data-i18n="pricing.henna.p1.desc">نقوش أنيقة لليدين بلمسات تراثية.</p>
+              <a class="btn btn-primary" href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+            <div class="tier">
+              <h4 data-i18n="pricing.henna.p2.title">حناء عروس</h4>
+              <div class="price">60 JD</div>
+              <p class="desc" data-i18n="pricing.henna.p2.desc">نقوش فاخرة لليدين مع تفاصيل مخصصة.</p>
+              <a class="btn btn-primary" href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-group" data-aos="fade-up" data-aos-delay="60">
+          <h3 class="card-title" data-i18n="pricing.makeup.title">باقات المكياج</h3>
+          <div class="tier-grid">
+            <div class="tier">
+              <h4 data-i18n="pricing.makeup.p1.title">دي غلام</h4>
+              <div class="price">35 JD</div>
+              <p class="desc" data-i18n="pricing.makeup.p1.desc">إطلالة ناعمة للنهار والمناسبات الخفيفة.</p>
+              <a class="btn btn-primary" href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+            <div class="tier">
+              <h4 data-i18n="pricing.makeup.p2.title">إيفنينغ غلام</h4>
+              <div class="price">55 JD</div>
+              <p class="desc" data-i18n="pricing.makeup.p2.desc">لوك جريء وثابت للمساء.</p>
+              <a class="btn btn-primary" href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-group" data-aos="fade-up" data-aos-delay="120">
+          <h3 class="card-title" data-i18n="pricing.glitter.title">باقات الجليتر</h3>
+          <div class="tier-grid">
+            <div class="tier">
+              <h4 data-i18n="pricing.glitter.p1.title">لمعة خفيفة</h4>
+              <div class="price">15 JD</div>
+              <p class="desc" data-i18n="pricing.glitter.p1.desc">لمسات براقة لطيفة للتصوير.</p>
+              <a class="btn btn-primary" href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+            <div class="tier">
+              <h4 data-i18n="pricing.glitter.p2.title">لمعة مناسبة</h4>
+              <div class="price">25 JD</div>
+              <p class="desc" data-i18n="pricing.glitter.p2.desc">لمعة متوازنة تناسب الحفلات.</p>
+              <a class="btn btn-primary" href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="gallery.title" data-aos="fade-up">المعرض</h2>
+        <div class="gallery-grid">
+          <a href="https://source.unsplash.com/900x900/?henna" data-lightbox data-aos="flip-left"><img src="https://source.unsplash.com/600x600/?henna" alt="Henna" loading="lazy"></a>
+          <a href="https://source.unsplash.com/900x900/?makeup" data-lightbox data-aos="flip-left" data-aos-delay="60"><img src="https://source.unsplash.com/600x600/?makeup" alt="Makeup" loading="lazy"></a>
+          <a href="https://source.unsplash.com/900x900/?glitter" data-lightbox data-aos="flip-left" data-aos-delay="120"><img src="https://source.unsplash.com/600x600/?glitter" alt="Glitter" loading="lazy"></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="contact.title" data-aos="fade-up">تواصل</h2>
+        <p class="section-lead" data-i18n="contact.text" data-aos="fade-up" data-aos-delay="60">تواصلي معي عبر إنستغرام أو واتساب للحجز والاستفسار.</p>
+        <div class="socials" data-aos="fade-up" data-aos-delay="110">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i> <span data-i18n="contact.instagram">إنستغرام</span></a>
+          <a href="https://wa.me/" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i> <span data-i18n="contact.whatsapp">واتساب</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small data-i18n="footer.copy">© 2025 انسامي. جميع الحقوق محفوظة.</small>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
